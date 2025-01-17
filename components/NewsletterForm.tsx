@@ -37,13 +37,17 @@ export default function NewsletterForm() {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your email"
-          className="flex-grow px-3 py-2 border rounded"
+          className="flex-grow px-3 py-2 border border-foreground rounded bg-white text-black placeholder:text-text-muted"
           required
         />
         <button
           type="submit"
           disabled={status === 'loading'}
-          className="px-4 py-2 bg-black text-white rounded hover:bg-gray-800 disabled:opacity-50"
+          className="px-4 py-2 bg-foreground text-background rounded 
+            hover:bg-primary-hover
+            active:bg-primary-hover/90
+            transition-colors duration-200 
+            disabled:opacity-50"
         >
           Subscribe
         </button>

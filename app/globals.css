@@ -3,19 +3,71 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Light mode - cool grays */
+  --background: #f5f5f5;  /* Light gray background */
+  --foreground: #333333;  /* Dark gray text */
+  
+  /* UI Colors */
+  --primary: #333333;
+  --primary-hover: #4f4f4f;
+  --secondary: #e5e5e5;
+  --secondary-hover: #d4d4d4;
+  
+  /* Text Colors */
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+  
+  /* Link Colors */
+  --link: #4f4f4f;
+  --link-hover: #666666;
+  
+  /* Border Colors */
+  --border-light: #e0e0e0;
+  --border-dark: #4f4f4f;
+  
+  /* Form Colors */
+  --input-background: #ffffff;
+  --input-text: #333333;
+  --input-placeholder: #999999;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  /* Dark mode - neutral grays */
+  --background: #1a1a1a;  /* Deep gray background */
+  --foreground: #e0e0e0;  /* Light gray text */
+  
+  --primary: #e0e0e0;
+  --primary-hover: #cccccc;
+  --secondary: #262626;
+  --secondary-hover: #333333;
+  
+  --text-primary: #e0e0e0;
+  --text-secondary: #b3b3b3;
+  --text-muted: #808080;
+  
+  --link: #e0e0e0;
+  --link-hover: #cccccc;
+  
+  --border-light: #333333;
+  --border-dark: #e0e0e0;
+  
+  --input-background: #ffffff;
+  --input-text: #333333;
+  --input-placeholder: #999999;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--link);
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover);
 }

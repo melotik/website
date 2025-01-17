@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import ThemeToggle from './ThemeToggle'
 
 export default function Navigation() {
   const pathname = usePathname()
@@ -14,24 +15,25 @@ export default function Navigation() {
   ]
 
   return (
-    <nav className="border-b">
+    <nav>
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
-          <Link href="/" className="text-xl font-bold">
-            Your Name
+          <Link href="/" className="text-xl font-bold hover:text-text-secondary transition-colors">
+            Dylan Melotik
           </Link>
-          <div className="space-x-6">
+          <div className="flex items-center space-x-6">
             {links.map(({ href, label }) => (
               <Link
                 key={href}
                 href={href}
-                className={`hover:text-gray-600 ${
+                className={`hover:text-text-secondary transition-colors ${
                   pathname === href ? 'font-semibold' : ''
                 }`}
               >
                 {label}
               </Link>
             ))}
+            <ThemeToggle />
           </div>
         </div>
       </div>
