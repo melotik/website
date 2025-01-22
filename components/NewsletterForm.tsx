@@ -29,9 +29,9 @@ export default function NewsletterForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-md">
+    <form onSubmit={handleSubmit} className="max-w-md w-full">
       <h3 className="text-lg font-semibold mb-2">Subscribe to my newsletter</h3>
-      <div className="flex gap-2">
+      <div className="flex flex-col sm:flex-row gap-2">
         <input
           type="email"
           value={email}
@@ -43,11 +43,12 @@ export default function NewsletterForm() {
         <button
           type="submit"
           disabled={status === 'loading'}
-          className="px-4 py-2 bg-foreground text-background rounded 
+          className="px-4 py-2 bg-primary text-background rounded 
             hover:bg-primary-hover
-            active:bg-primary-hover/90
+            active:bg-primary-hover
             transition-colors duration-200 
-            disabled:opacity-50"
+            disabled:opacity-50
+            sm:w-auto w-full"
         >
           Subscribe
         </button>

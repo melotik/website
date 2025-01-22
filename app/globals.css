@@ -8,10 +8,10 @@
   --foreground: #333333;  /* Dark gray text */
   
   /* UI Colors */
-  --primary: #333333;
-  --primary-hover: #4f4f4f;
-  --secondary: #e5e5e5;
-  --secondary-hover: #d4d4d4;
+  --primary: rgba(51, 51, 51, 0.9);  /* Softer dark gray */
+  --primary-hover: rgba(51, 51, 51, 0.7);  /* Even softer on hover */
+  --secondary: rgba(229, 229, 229, 0.5);  /* Lighter gray */
+  --secondary-hover: rgba(212, 212, 212, 0.7);
   
   /* Text Colors */
   --text-primary: #333333;
@@ -23,8 +23,8 @@
   --link-hover: #666666;
   
   /* Border Colors */
-  --border-light: #e0e0e0;
-  --border-dark: #4f4f4f;
+  --border-light: rgba(224, 224, 224, 0.2);  /* Softer borders */
+  --border-dark: rgba(79, 79, 79, 0.2);
   
   /* Form Colors */
   --input-background: #ffffff;
@@ -37,10 +37,10 @@
   --background: #1a1a1a;  /* Deep gray background */
   --foreground: #e0e0e0;  /* Light gray text */
   
-  --primary: #e0e0e0;
-  --primary-hover: #cccccc;
-  --secondary: #262626;
-  --secondary-hover: #333333;
+  --primary: rgba(224, 224, 224, 0.9);  /* Softer light gray */
+  --primary-hover: rgba(224, 224, 224, 0.7);
+  --secondary: rgba(38, 38, 38, 0.5);
+  --secondary-hover: rgba(51, 51, 51, 0.7);
   
   --text-primary: #e0e0e0;
   --text-secondary: #b3b3b3;
@@ -49,8 +49,8 @@
   --link: #e0e0e0;
   --link-hover: #cccccc;
   
-  --border-light: #333333;
-  --border-dark: #e0e0e0;
+  --border-light: rgba(51, 51, 51, 0.2);
+  --border-dark: rgba(224, 224, 224, 0.2);
   
   --input-background: #ffffff;
   --input-text: #333333;
