@@ -20,8 +20,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+      </head>
       <body className={inter.className}>
-        <ThemeProvider attribute="class" enableSystem defaultTheme="system">
+        <ThemeProvider 
+          attribute="class" 
+          defaultTheme="light"
+          enableSystem={false}
+          storageKey="theme-preference"
+        >
           <div className="min-h-screen flex flex-col">
             <Navigation />
             <main className="flex-grow container mx-auto px-4 py-8">
