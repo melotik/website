@@ -7,7 +7,12 @@ export default function Home() {
       <section className="mb-16">
         <h1 className="text-4xl font-bold mb-4">Hi 👋, I&apos;m Dylan</h1>
         <p className="text-lg text-text-secondary mb-6">
-          I&apos;m a blockchain data professional specializing in building scalable data systems at <a href="https://www.openblocklabs.com/" className="hover:text-text-muted transition-colors">OpenBlock Labs</a>. 
+          I&apos;m a blockchain data professional specializing in building scalable data systems at <a 
+            href="https://www.openblocklabs.com/" 
+            className="hover:text-text-muted transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >OpenBlock Labs</a>. 
           With an interest in building products that bridge the gap between finance and Web3.
         </p>
         <div className="space-x-4">
