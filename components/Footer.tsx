@@ -8,7 +8,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/melotik"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-foreground transition-colors"
+            className="hover:text-text-secondary transition-colors"
           >
             <i className="fab fa-linkedin text-xl" aria-label="LinkedIn" />
           </a>
@@ -16,7 +16,7 @@ const Footer = () => {
             href="https://github.com/melotik"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-foreground transition-colors"
+            className="hover:text-text-secondary transition-colors"
           >
             <i className="fab fa-github text-xl" aria-label="GitHub" />
           </a>
@@ -24,7 +24,7 @@ const Footer = () => {
             href="https://x.com/dylanmelotik"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-foreground transition-colors"
+            className="hover:text-text-secondary transition-colors"
           >
             <i className="fab fa-x-twitter text-xl" aria-label="X (Twitter)" />
           </a>
@@ -32,9 +32,18 @@ const Footer = () => {
             href="https://dylanmelotik.medium.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-foreground transition-colors"
+            className="hover:text-text-secondary transition-colors"
           >
             <i className="fab fa-medium text-xl" aria-label="Medium" />
+          </a>
+          <a
+            href="https://t.me/dylanmelotik"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-text-secondary transition-colors"
+            aria-label="Telegram"
+          >
+            <i className="fab fa-telegram text-xl" />
           </a>
         </div>
         
