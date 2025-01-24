@@ -42,6 +42,7 @@ ${message}
       { status: 200 }
     );
   } catch (error) {
+    console.error('Error sending email:', error);
     return NextResponse.json(
       { error: 'Internal server error' },
       { status: 500 }

@@ -99,7 +99,7 @@ export default function About() {
                       className="link-underline"
                     >
                       Token Unlocks
-                    </a>, one of Messari's stickiest products</li>
+                    </a>, one of Messari&apos;s stickiest products</li>
                     <li>Developed dbt models for SQL-based DeFi transformations to improve development cycles and performance</li>
                   </ul>
                 </div>
@@ -160,7 +160,7 @@ export default function About() {
         <h2 className="text-2xl font-semibold mb-4">Current Focus</h2>
         <div className="p-4 rounded-lg border border-border-light">
           <p className="text-text-secondary">
-            Share what you're currently working on or learning
+            Share what you&apos;re currently working on or learning
           </p>
         </div>
       </section>

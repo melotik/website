@@ -108,7 +108,7 @@ export default function Contact() {
 
         {status === 'success' && (
           <p className="text-green-600 text-sm text-center">
-            Thank you for reaching out! I'll get back to you soon.
+            Thank you for reaching out! I&apos;ll get back to you soon.
           </p>
         )}
         {status === 'error' && (
@@ -133,7 +133,7 @@ export default function Contact() {
         </div>
 
         <div>
-          <h2 className="text-sm font-medium text-text-secondary mb-3">Let's connect</h2>
+          <h2 className="text-sm font-medium text-text-secondary mb-3">Let&apos;s connect</h2>
           <div className="space-y-2">
             <a 
               href="https://www.linkedin.com/in/melotik"
