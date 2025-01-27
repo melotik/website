@@ -20,7 +20,7 @@ export default function Home() {
           >
             OpenBlock Labs
           </a>
-          . Bridging the gap between finance and Web3.
+          . On a mission to connect the world to web3.
         </p>
 
         {/* Call to Action Buttons */}
@@ -48,9 +48,9 @@ export default function Home() {
             href="https://dylanmelotik.medium.com/subscribe"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center group text-text-secondary hover:text-foreground transition-colors"
+            className="social-link group"
           >
-            <span className="mr-2">✍️</span>
+            <i className="fab fa-medium text-lg mr-2" />
             Follow my writing journey on Medium
             <ArrowIcon />
           </a>

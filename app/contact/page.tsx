@@ -124,7 +124,7 @@ export default function Contact() {
           <h2 className="text-sm font-medium text-text-secondary mb-3">Or reach out directly</h2>
           <a 
             href="mailto:dylanmelotik@gmail.com"
-            className="inline-flex items-center group text-foreground hover:text-text-secondary transition-colors"
+            className="social-link group"
           >
             <span className="mr-2">📧</span>
             dylanmelotik@gmail.com
@@ -139,7 +139,7 @@ export default function Contact() {
               href="https://www.linkedin.com/in/melotik"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center group text-foreground hover:text-text-secondary transition-colors"
+              className="social-link group"
             >
               <i className="fab fa-linkedin text-lg mr-2" />
               Connect with me on LinkedIn
@@ -149,7 +149,7 @@ export default function Contact() {
               href="https://x.com/dylanmelotik"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center group text-foreground hover:text-text-secondary transition-colors"
+              className="social-link group"
             >
               <i className="fab fa-x-twitter text-lg mr-2" />
               Follow me on X

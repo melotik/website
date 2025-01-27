@@ -79,3 +79,16 @@ a:hover {
 .arrow-icon {
   @apply w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform;
 }
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--foreground);
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.social-link:hover {
+  color: var(--text-secondary);
+}

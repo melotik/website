@@ -36,15 +36,6 @@ const Footer = () => {
           >
             <i className="fab fa-medium text-xl" aria-label="Medium" />
           </a>
-          <a
-            href="https://t.me/dylanmelotik"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-text-secondary transition-colors"
-            aria-label="Telegram"
-          >
-            <i className="fab fa-telegram text-xl" />
-          </a>
         </div>
         
         {/* Existing footer content */}
