@@ -79,37 +79,89 @@ export default function About() {
           <div className="p-4 rounded-lg border border-border-light">
             <h3 className="font-medium mb-2">Professional Experience</h3>
             <div className="space-y-4">
-              <div className="flex items-center gap-3">
-                <div>
-                  <h4 className="font-medium">Software Engineer at Messari</h4>
-                  <p className="text-text-secondary">2021 - 2023</p>
-                  <ul className="list-disc list-inside text-text-secondary mt-2">
-                    <li>Set industry standard DeFi transformations and schemas through <a 
-                      href="https://github.com/messari/subgraphs"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="link-underline"
-                    >
-                      Messari Subgraphs
-                    </a></li>
-                    <li>Built backend infrastructure for <a 
-                      href="https://messari.io/token-unlocks"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="link-underline"
-                    >
-                      Token Unlocks
-                    </a>, one of Messari&apos;s stickiest products</li>
-                    <li>Developed dbt models for SQL-based DeFi transformations to improve development cycles and performance</li>
-                  </ul>
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <a 
+                    href="https://messari.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:opacity-80 transition-opacity"
+                  >
+                    <Image 
+                      src="/about/messari.svg"
+                      alt="Messari logo"
+                      width={32}
+                      height={32}
+                      className="w-8 h-8"
+                    />
+                  </a>
+                  <div>
+                    <h4 className="font-medium">Software Engineer at Messari</h4>
+                    <p className="text-text-secondary">2022 - 2024</p>
+                  </div>
                 </div>
+                
+                <ul className="list-disc list-inside text-text-secondary">
+                  <li>Helped set industry standard DeFi schemas and transformations through <a 
+                    href="https://github.com/messari/subgraphs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-underline"
+                  >
+                    Messari Subgraphs
+                  </a></li>
+                  <li>Designed database schema and implemented GraphQL API + Redis cache for <a 
+                    href="https://messari.io/token-unlocks"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-underline"
+                  >
+                    Token Unlocks
+                  </a>, one of Messari&apos;s stickiest products</li>
+                  <li>Collaborated with product team to utilize existing Token Unlocks backend system to build 5 <a 
+                    href="https://docs.messari.io/reference/allocations"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-underline"
+                  >
+                    enterprise-grade REST endpoints
+                  </a></li>
+                  <li>Developed dbt models to transform raw blockchain data into high level metrics, scaling performance with Snowflake</li>
+                </ul>
+              </div>
+
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <a 
+                    href="https://www.openblocklabs.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:opacity-80 transition-opacity"
+                  >
+                    <Image 
+                      src="/about/openblocklabs.svg"
+                      alt="Open Block Labs logo"
+                      width={32}
+                      height={32}
+                      className="w-8 h-8"
+                    />
+                  </a>
+                  <div>
+                    <h4 className="font-medium">Data Engineer at Open Block Labs</h4>
+                    <p className="text-text-secondary">2024 - Present</p>
+                  </div>
+                </div>
+                
+                <ul className="list-disc list-inside text-text-secondary">
+                  <li>Building + maintaining blockchain data pipelines with Python + DBT + Airflow</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Interests & Hobbies */}
+      Interests & Hobbies
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Interests & Hobbies</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
