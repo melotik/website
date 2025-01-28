@@ -11,7 +11,7 @@ export default function Home() {
         </h1>
         
         <p className="text-lg text-text-secondary max-w-xl">
-          A blockchain data professional building scalable systems at{' '}
+          A blockchain data engineer building indexing solutions at{' '}
           <a 
             href="https://www.openblocklabs.com/" 
             className="link-underline"

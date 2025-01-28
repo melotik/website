@@ -20,6 +20,9 @@ export default {
         link: "var(--link)",
         'link-hover': "var(--link-hover)",
       },
+      rotate: {
+        'y-180': '180deg',
+      },
     },
   },
   plugins: [],

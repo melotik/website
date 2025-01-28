@@ -1,4 +1,6 @@
 import Image from "next/image";
+import FlipCard from "../../components/FlipCard";
+import ArrowIcon from "../../components/ArrowIcon";
 
 export default function About() {
   return (
@@ -6,21 +8,21 @@ export default function About() {
       {/* Intro Section */}
       <section className="mb-12">
         <h1 className="text-4xl font-bold mb-6">About Me</h1>
-        <div className="flex flex-col md:flex-row gap-8 items-start">
+        <div className="flex flex-col md:flex-row gap-6 items-start">
           <div className="flex-1">
-            <p className="text-lg mb-4">
-              Coming soon...
+            <p className="text-lg mb-4 text-text-secondary leading-relaxed">
+              From being the family & friend tech support at age 9 to building my first website in high school, my path into tech was clear from the start.
             </p>
             <p className="text-text-secondary">
-              Currently based in Denver
+              Based in Denver, CO
             </p>
           </div>
-          <div className="w-48 h-48 rounded-lg overflow-hidden">
+          <div className="w-40 h-40 rounded-lg overflow-hidden flex-shrink-0">
             <Image 
               src="/about/profile.jpg"
               alt="Dylan Melotik"
-              width={192}
-              height={192}
+              width={160}
+              height={160}
               className="object-cover w-full h-full"
               priority
             />
@@ -161,59 +163,78 @@ export default function About() {
         </div>
       </section>
 
-      Interests & Hobbies
+      {/* Personal Projects */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Interests & Hobbies</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="p-4 rounded-lg border border-border-light">
-            <h3 className="font-medium mb-2">Technical Interests</h3>
-            <ul className="list-disc list-inside text-text-secondary">
-              <li>Blockchain Development</li>
-              <li>Distributed Systems</li>
-              <li>Add more...</li>
-            </ul>
-          </div>
-          <div className="p-4 rounded-lg border border-border-light">
-            <h3 className="font-medium mb-2">Hobbies</h3>
-            <ul className="list-disc list-inside text-text-secondary">
-              <li>Add your hobbies</li>
-              <li>And interests here</li>
-            </ul>
-          </div>
+        <h2 className="text-2xl font-semibold mb-4">Projects</h2>
+        <div className="space-y-3">
+          <a 
+            href="https://dylanmelotik.medium.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link group"
+          >
+            <i className="fab fa-medium text-lg mr-2" />
+            In progress: Trying out long form writing
+            <ArrowIcon />
+          </a>
+          <br />
+          <a 
+            href="https://www.youtube.com/@dylanmelotik4708"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link group"
+          >
+            <i className="fab fa-youtube text-lg mr-2" />
+            The Graph Ecosystem video guides
+            <ArrowIcon />
+          </a>
+          <br />
+          <a 
+            href="https://github.com/badgerblockchain/badger-blocks"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link group"
+          >
+            <i className="fab fa-github text-lg mr-2" />
+            Badger Blocks: A gameified way to learn solidity / smart contracts
+            <ArrowIcon />
+          </a>
+          <br />
+          <a 
+            href="https://github.com/badgerblockchain/development-guide"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link group"
+          >
+            <i className="fab fa-github text-lg mr-2" />
+            Deep dive into smart contract concepts behind Badger Blocks
+            <ArrowIcon />
+          </a>
         </div>
       </section>
 
-      {/* Reading List */}
+      {/* Beyond Code */}
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Favorite Books</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="p-4 rounded-lg border border-border-light">
-            <div className="w-full h-40 bg-secondary rounded mb-3">
-              {/* Book cover placeholder */}
-            </div>
-            <h3 className="font-medium">Book Title</h3>
-            <p className="text-sm text-text-secondary">Author</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Travel Gallery */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Travel Highlights</h2>
+        <h2 className="text-2xl font-semibold mb-4">Beyond Code</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          <div className="aspect-square rounded-lg bg-secondary flex items-center justify-center text-text-secondary">
-            {/* Travel photo placeholder */}
-          </div>
-        </div>
-      </section>
-
-      {/* Current Projects */}
-      <section className="mb-12">
-        <h2 className="text-2xl font-semibold mb-4">Current Focus</h2>
-        <div className="p-4 rounded-lg border border-border-light">
-          <p className="text-text-secondary">
-            Share what you&apos;re currently working on or learning
-          </p>
+          <FlipCard 
+            imageSrc="/about/travel.jpg"
+            imageAlt="Travel"
+            title="Travel"
+            description="Reflection through exploring new cultures and landscapes."
+          />
+          <FlipCard 
+            imageSrc="/about/hiking.jpg"
+            imageAlt="Hiking"
+            title="Colorado 14ers"
+            description="Conquered 11 peaks above 14,000ft. Each summit teaches persistence and preparation."
+          />
+          <FlipCard 
+            imageSrc="/about/skydiving.jpg"
+            imageAlt="Skydiving"
+            title="Skydiving"
+            description="Mastering risk assessment and quick decision making."
+          />
         </div>
       </section>
     </div>
