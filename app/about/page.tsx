@@ -9,14 +9,6 @@ export default function About() {
       <section className="mb-12">
         <h1 className="text-4xl font-bold mb-6">About Me</h1>
         <div className="flex flex-col md:flex-row gap-6 items-start">
-          <div className="flex-1">
-            <p className="text-lg mb-4 text-text-secondary leading-relaxed">
-              From being the family & friend tech support at age 9 to building my first website in high school, my path into tech was clear from the start.
-            </p>
-            <p className="text-text-secondary">
-              Based in Denver, CO
-            </p>
-          </div>
           <div className="w-40 h-40 rounded-lg overflow-hidden flex-shrink-0">
             <Image 
               src="/about/profile.jpg"
@@ -26,6 +18,14 @@ export default function About() {
               className="object-cover w-full h-full"
               priority
             />
+          </div>
+          <div className="flex-1">
+            <p className="text-text-secondary mb-4">
+              Based in Denver, CO
+            </p>
+            <p className="text-lg text-text-secondary leading-relaxed">
+            From being the family & friend tech support at age 9 to building my first website in high school, my path into tech was clear from the start.
+            </p>
           </div>
         </div>
       </section>
@@ -163,7 +163,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Personal Projects */}
+      {/* Projects */}
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Projects</h2>
         <div className="space-y-3">
@@ -175,6 +175,17 @@ export default function About() {
           >
             <i className="fab fa-medium text-lg mr-2" />
             In progress: Trying out long form writing
+            <ArrowIcon />
+          </a>
+          <br />
+          <a 
+            href="https://github.com/melotik/website"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-link group"
+          >
+            <i className="fab fa-github text-lg mr-2" />
+            Personal Website: Built with Next.js + Typescript
             <ArrowIcon />
           </a>
           <br />
