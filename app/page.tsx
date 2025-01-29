@@ -6,7 +6,7 @@ export default function Home() {
     <div className="max-w-3xl mx-auto">
       {/* Hero Section */}
       <section className="mb-12">
-        <h1 className="text-4xl font-bold mb-6 text-center md:text-left">Hi, I'm Dylan 👋</h1>
+        <h1 className="text-4xl font-bold mb-6 text-center md:text-left">Hi, I&apos;m Dylan 👋</h1>
         <div className="flex flex-col items-center md:items-start md:flex-row gap-6">
           <div className="md:w-1/4 lg:w-1/5 flex flex-col items-center md:items-start">
             <div className="aspect-square rounded-lg overflow-hidden w-48 md:w-full">
