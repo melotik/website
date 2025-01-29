@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from 'next/link'
 import ArrowIcon from '@/components/ArrowIcon'
 import FlipCard from '@/components/FlipCard'
 export default function Home() {
