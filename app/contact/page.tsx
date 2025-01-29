@@ -47,7 +47,7 @@ export default function Contact() {
       <h1 className="text-4xl font-bold mb-8">Get in Touch</h1>
       
       <p className="text-text-secondary mb-8">
-        Have a question, inquiry, or just want to connect? Feel free to reach out through the form below or any of my social channels.
+        Want to connect, explore an idea, or just want to say hi? Feel free to reach out through the form below or any of my social channels.
       </p>
       
       <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
