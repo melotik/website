@@ -132,7 +132,7 @@ export default function Home() {
                 </div>
                 
                 <ul className="list-disc list-inside text-text-secondary">
-                  <li>Building + maintaining blockchain data pipelines with Python + DBT + Airflow</li>
+                  <li>Blockchain data infrastructure for incentive mechanisms</li>
                 </ul>
               </div>
 
@@ -159,31 +159,37 @@ export default function Home() {
                 </div>
                 
                 <ul className="list-disc list-inside text-text-secondary">
-                  <li>Helped set industry standard DeFi schemas and transformations through <a 
+                  <li>200+ <a 
                     href="https://github.com/messari/subgraphs"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link-underline"
                   >
-                    Messari Subgraphs
+                    Subgraphs
+                  </a> delivering on a <a 
+                    href="https://messari.io/news/messari-subgraphs-receives-12-5m-grant-from-the-graph-foundation"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-underline"
+                  >
+                    $12.5M Graph Foundation grant
                   </a></li>
-                  <li>Designed database schema and implemented GraphQL API + Redis cache for <a 
+                  <li>Built <a 
                     href="https://messari.io/token-unlocks"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link-underline"
                   >
                     Token Unlocks
-                  </a>, one of Messari&apos;s stickiest products</li>
-                  <li>Collaborated with product team to utilize existing Token Unlocks backend system to build 5 <a 
+                  </a> product</li>
+                  <li><a 
                     href="https://docs.messari.io/reference/allocations"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="link-underline"
                   >
-                    enterprise-grade REST endpoints
+                    Token Unlocks API
                   </a></li>
-                  <li>Developed dbt models to transform raw blockchain data into high level metrics, scaling performance with Snowflake</li>
                 </ul>
               </div>
             </div>
