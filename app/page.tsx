@@ -44,7 +44,7 @@ export default function Home() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Projects</h2>
         <div className="space-y-3">
-          <a 
+          {/* <a TODO: Add back in once I have a post
             href="https://dylanmelotik.medium.com/subscribe"
             target="_blank"
             rel="noopener noreferrer"
@@ -54,7 +54,7 @@ export default function Home() {
             In progress: Trying out long form writing
             <ArrowIcon />
           </a>
-          <br />
+          <br /> */}
           <a 
             href="https://github.com/melotik/website"
             target="_blank"
