@@ -23,18 +23,25 @@ export default function Home() {
           
           <div className="flex-1">
             <p className="text-lg text-text-secondary leading-relaxed mb-6">
-              From being the family & friend tech support at age 9 to building my first website in high school, my path into tech was clear from the start. Currently, I&apos;m building & supporting the blockchain data infrastructure used to power{' '}
-              <a 
-                href="https://www.openblocklabs.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="link-underline"
-              >
-                OpenBlock Labs
-              </a>
-              .
+              From being the family & friend tech support at age 9 to building my first website in high school, my path into tech was clear from the start. 
               <br /><br />
-              This website is my landing page to explore ideas, share thoughts, and muse on my projects.
+              While I am looking for my next role as an Engineer, I&apos;m excited to be working on a passion project. Combining my love for travel, AI, and adventure into one product, check it out{' '}
+               <a 
+                 href="https://adventure-copilot.vercel.app/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="link-underline"
+               >
+                 here
+               </a>!
+                               <br /><br />
+                Don&apos;t hesitate to{' '}
+                <a 
+                  href="/contact"
+                  className="link-underline"
+                >
+                  reach out to me
+                </a>!
             </p>
           </div>
         </div>
@@ -55,6 +62,17 @@ export default function Home() {
             <ArrowIcon />
           </a>
           <br /> */}
+                     <a 
+             href="https://adventure-copilot.vercel.app/"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="social-link group"
+           >
+             <i className="fas fa-globe text-lg mr-2" />
+             Adventure Copilot: AI Assistant for Adventure Planning
+             <ArrowIcon />
+           </a>
+          <br />
           <a 
             href="https://github.com/melotik/website"
             target="_blank"
@@ -127,11 +145,19 @@ export default function Home() {
                   </a>
                   <div>
                     <h4 className="font-medium">Data Engineer at Open Block Labs</h4>
-                    <p className="text-text-secondary">2024 - Present</p>
+                    <p className="text-text-secondary">June 2024 - July 2025</p>
                   </div>
                 </div>
                 
                 <ul className="list-disc list-inside text-text-secondary">
+                  <li><a 
+                    href="https://www.obl.dev/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-underline"
+                  >
+                    OB1
+                  </a>: An Agent Arena for collecting human preferences on agent workflows</li>
                   <li>Blockchain data infrastructure for incentive mechanisms</li>
                 </ul>
               </div>
@@ -154,7 +180,7 @@ export default function Home() {
                   </a>
                   <div>
                     <h4 className="font-medium">Software Engineer at Messari</h4>
-                    <p className="text-text-secondary">2022 - 2024</p>
+                    <p className="text-text-secondary">March 2022 - June2024</p>
                   </div>
                 </div>
                 
