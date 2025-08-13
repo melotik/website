@@ -144,7 +144,7 @@ export default function Home() {
                     />
                   </a>
                   <div>
-                    <h4 className="font-medium">Data Engineer at Open Block Labs</h4>
+                    <h4 className="font-medium">Software Engineer at Open Block Labs</h4>
                     <p className="text-text-secondary">June 2024 - July 2025</p>
                   </div>
                 </div>
