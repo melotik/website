@@ -130,13 +130,47 @@ export default function Home() {
             <div>
                 <div className="flex items-center gap-3 mb-4">
                   <a 
+                    href="https://www.cointracker.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:opacity-80 transition-opacity"
+                  >
+                    <Image 
+                      src="/about/cointracker.svg"
+                      alt="CoinTracker logo"
+                      width={32}
+                      height={32}
+                      className="w-8 h-8"
+                    />
+                  </a>
+                  <div>
+                    <h4 className="font-medium">Product Engineer at CoinTracker</h4>
+                    <p className="text-text-secondary">October 2025 - Present</p>
+                  </div>
+                </div>
+                
+                <ul className="list-disc list-inside text-text-secondary">
+                  <li><a 
+                    href="https://www.cointracker.io/enterprise"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-underline"
+                  >
+                    The best crypto subledger
+                  </a></li>
+                </ul>
+              </div>
+
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <a 
                     href="https://www.openblocklabs.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:opacity-80 transition-opacity"
                   >
                     <Image 
-                      src="/about/openblocklabs.svg"
+                      src="/about/openblocklabs.jpeg"
                       alt="Open Block Labs logo"
                       width={32}
                       height={32}
@@ -144,7 +178,7 @@ export default function Home() {
                     />
                   </a>
                   <div>
-                    <h4 className="font-medium">Software Engineer at Open Block Labs</h4>
+                    <h4 className="font-medium">Software Engineer at OpenBlock</h4>
                     <p className="text-text-secondary">June 2024 - July 2025</p>
                   </div>
                 </div>
